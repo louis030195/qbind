@@ -108,3 +108,9 @@ slice i -> i1 i2
 Here, qbind first slices text and image modalities into two equal parts. Then, it combines the first half of the text and image modalities into a 512-dimensional representation, and separately, it combines audio, depth, and heatmap modalities into a 768-dimensional representation.
 
 These examples demonstrate the flexibility and expressiveness of the qbind language, enabling users to work with different modalities and perform various slicing and division operations. With qbind, users can intuitively define transformations and relationships between multiple data modalities and represent their combined information efficiently.
+
+## Roadmap
+
+- [ ] ImageBind https://github.com/facebookresearch/ImageBind
+- [ ] CLIP
+- [ ] ...
